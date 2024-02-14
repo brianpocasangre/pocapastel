@@ -1,0 +1,14 @@
+body {
+  background-color: #ffc0f2;
+  color: #044d2a;
+}
+.border-bottom {
+  border-color: #044d2a !important;
+}
+a {
+  color: #044d2a !important;
+}
+.active {
+  color: #ffc0f2 !important;
+  background-color: #044d2a !important;
+}
