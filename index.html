@@ -9,6 +9,12 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=IM+Fell+Great+Primer:ital@0;1&family=Mako&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -19,14 +25,14 @@
   <body>
     <div class="container">
       <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+        class="sticky-top d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
       >
         <a
           href="/"
           class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
         >
           <img src="./favicon-32x32.png" alt="PocaPasteleria Logo" />
-          <span class="fs-4 my-1 mx-1">PocaPasteleria</span>
+          <span class="txt-white fs-4 my-1 mx-1">PocaPasteleria</span>
         </a>
         <nav id="navId">
           <ul class="nav nav-pills">
@@ -65,32 +71,39 @@
             />
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            <h1 class="great display-5 fw-bold text-body-emphasis lh-1 mb-3">
               Making Every Celebration Special
             </h1>
-            <p class="lead">
+            <p class="mako lead">
               With your very own Custom or Designed Vintage Cake for all your
               special one's and every ocassion!
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-                Styles
-              </button>
-              <button
-                type="button"
-                class="btn btn-outline-secondary btn-lg px-4"
+              <a href="#scrollspyHeading3">
+                <button
+                  type="button"
+                  class="alef active btn btn-primary btn-lg px-4 me-md-2"
+                >
+                  Styles
+                </button>
+              </a>
+              <a href="#scrollspyHeading4"
+                ><button
+                  type="button"
+                  class="alef btn btn-outline-secondary btn-lg px-4"
+                >
+                  Order
+                </button></a
               >
-                Order
-              </button>
             </div>
           </div>
         </div>
       </div>
       <div id="scrollspyHeading2" class="container my-5">
-        <div class="p-5 text-center bg-body-tertiary rounded-3">
+        <div class="greenbg p-5 text-center bg-body-tertiary rounded-3">
           <img src="/apple-touch-icon.png" class="pb-3" alt="" />
-          <h1 class="text-body-emphasis">Get To Know Us</h1>
-          <p class="col-lg-8 mx-auto fs-5 text-muted">
+          <h1 class="great text-body-emphasis">Get To Know Us</h1>
+          <p class="mako col-lg-8 mx-auto fs-5 text-muted">
             PocaPasteleria is a local Vintage cake home bakery. Lorem ipsum
             dolor sit, amet consectetur adipisicing elit. Ad distinctio
             recusandae rem exercitationem unde impedit ullam harum eius delectus
@@ -98,18 +111,22 @@
             tempore illum mollitia?
           </p>
           <div class="d-inline-flex gap-2 mb-5">
-            <button
-              class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill"
-              type="button"
-            >
-              Styles
-            </button>
-            <button
-              class="btn btn-outline-secondary btn-lg px-4 rounded-pill"
-              type="button"
-            >
-              Order
-            </button>
+            <a href="#scrollspyHeading3">
+              <button
+                class="alef d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill"
+                type="button"
+              >
+                Styles
+              </button>
+            </a>
+            <a href="#scrollspyHeading4">
+              <button
+                class="alef btn btn-outline-secondary btn-lg px-4 rounded-pill"
+                type="button"
+              >
+                Order
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -149,7 +166,7 @@
                       alt="..."
                       height="600px"
                     />
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="mako carousel-caption d-none d-md-block">
                       <h5>First slide label</h5>
                       <p>
                         Some representative placeholder content for the first
@@ -164,7 +181,7 @@
                       alt="..."
                       height="600px"
                     />
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="mako carousel-caption d-none d-md-block">
                       <h5>Second slide label</h5>
                       <p>
                         Some representative placeholder content for the second
@@ -179,7 +196,7 @@
                       alt="..."
                       height="600px"
                     />
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="mako carousel-caption d-none d-md-block">
                       <h5>Third slide label</h5>
                       <p>
                         Some representative placeholder content for the third
@@ -218,20 +235,27 @@
           <div class="col-2"></div>
         </div>
       </div>
-      <div class="container my-5">
-        <div class="p-5 text-center bg-body-tertiary rounded-3">
-          <h1 class="text-body-emphasis">Order Now!</h1>
-          <p class="lead">
+      <div id="scrollspyHeading4" class="container my-5">
+        <div class="greenbg p-5 text-center bg-body-tertiary rounded-3">
+          <h1 class="great text-body-emphasis">Order Now!</h1>
+          <p class="mako lead">
             This link will redirect you to PocaPasteleria's submission form.
             Please make sure to read over all the details and instructions.
           </p>
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">Order Form</button>
+            <a
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfZLzg3iezuiaHP4ZOY5r0XrOy7cuY_Z1EZSFhRZ0ZzyhwBgg/viewform?usp=sf_link"
+            >
+              <button class="alef btn btn-primary" type="button">
+                Order Form
+              </button>
+            </a>
           </div>
         </div>
       </div>
       <div id="scrollspyHeading5" class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 text-center border-bottom">Reviews</h2>
+        <h2 class="mako pb-2 text-center border-bottom">Reviews</h2>
 
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div class="col">
@@ -242,18 +266,22 @@
               <div
                 class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
               >
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">
+                <h3
+                  class="alef pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center"
+                >
                   "Beautiful and stunning, Simply the best!"
                 </h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
-                    <img
-                      src="/Instagram.png"
-                      alt="Bootstrap"
-                      width="32"
-                      height="32"
-                      class="rounded-circle border border-white"
-                    />
+                    <a href="https://www.instagram.com/pocapasteleria/">
+                      <img
+                        src="/Instagram.png"
+                        alt="Bootstrap"
+                        width="32"
+                        height="32"
+                        class="rounded-circle border border-white"
+                      />
+                    </a>
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em">
@@ -280,18 +308,22 @@
               <div
                 class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
               >
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">
+                <h3
+                  class="alef pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center"
+                >
                   "Gorgeous and Tastes even better"
                 </h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
-                    <img
-                      src="/Tik Tok.png"
-                      alt="Bootstrap"
-                      width="32"
-                      height="32"
-                      class="rounded-circle border border-white"
-                    />
+                    <a href="">
+                      <img
+                        src="/Tik Tok.png"
+                        alt="Bootstrap"
+                        width="32"
+                        height="32"
+                        class="rounded-circle border border-white"
+                      />
+                    </a>
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em">
@@ -316,18 +348,22 @@
               style="background-image: url('unsplash-photo-3.jpg')"
             >
               <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">
+                <h3
+                  class="alef pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center"
+                >
                   "Took care of me last minute, life saver!"
                 </h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
-                    <img
-                      src="/Instagram.png"
-                      alt="Bootstrap"
-                      width="32"
-                      height="32"
-                      class="rounded-circle border border-white"
-                    />
+                    <a href="https://www.instagram.com/pocapasteleria/">
+                      <img
+                        src="/Instagram.png"
+                        alt="Bootstrap"
+                        width="32"
+                        height="32"
+                        class="rounded-circle border border-white"
+                      />
+                    </a>
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em">
@@ -369,12 +405,15 @@
 
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
             <li class="ms-3">
-              <a class="text-body-secondary" href="#"
+              <a
+                class="text-body-secondary"
+                target="_blank"
+                href="https://www.instagram.com/pocapasteleria/"
                 ><img src="/Instagram.png" width="24" height="24" alt=""
               /></a>
             </li>
             <li class="ms-3">
-              <a class="text-body-secondary" href="#"
+              <a class="text-body-secondary" href=""
                 ><img src="/Tik Tok.png" width="24" height="24" alt=""
               /></a>
             </li>

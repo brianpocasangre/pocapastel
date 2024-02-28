@@ -1,9 +1,29 @@
 body {
-  background-color: #ffc0f2;
-  color: #044d2a;
+  background-color: #cc00a3;
+  color: #e2e2dc !important;
+  font-family: 'IM Fell Great Primer', serif;
+}
+.txt-white {
+  color: #e2e2dc !important;
+}
+.great {
+  font-family: 'IM Fell Great Primer', serif;
+  color: #e2e2dc !important;
+}
+.mako {
+  font-family: 'Mako', sans-serif;
+  color: #e2e2dc !important;
+}
+.alef {
+  font-family: 'Alef', sans-serif;
+  color: #044d2a !important;
 }
 .border-bottom {
   border-color: #044d2a !important;
+}
+.greenbg {
+  background-color: #044d2a !important;
+  background: #044d2a !important;
 }
 a {
   color: #044d2a !important;
