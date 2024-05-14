@@ -3,16 +3,16 @@ body {
   color: #e2e2dc !important;
   font-family: 'IM Fell Great Primer', serif;
 }
-.txt-white {
-  color: #e2e2dc !important;
-}
 .great {
   font-family: 'IM Fell Great Primer', serif;
-  color: #e2e2dc !important;
+  color: #044d2a !important;
+}
+.green {
+  color: #044d2a;
 }
 .mako {
   font-family: 'Mako', sans-serif;
-  color: #e2e2dc !important;
+  color: #044d2a !important;
 }
 .alef {
   font-family: 'Alef', sans-serif;
