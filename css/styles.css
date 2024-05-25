@@ -6,25 +6,28 @@ body {
 }
 .great {
   font-family: 'IM Fell Great Primer', serif;
-  color: #515c3f !important;
+  color: #ffffff !important;
 }
 .green {
   color: #515c3f;
 }
 .mako {
   font-family: 'Mako', sans-serif;
-  color: #515c3f !important;
+  color: #ffffff !important;
 }
 .alef {
   font-family: 'Alef', sans-serif;
-  color: #515c3f !important;
+  color: #ffffff !important;
 }
 .border-bottom {
   border-color: #515c3f !important;
 }
 .greenbg {
-  background-color: #515c3f !important;
-  background: #515c3f !important;
+  background: rgba(81, 92, 63, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
 }
 .beigebg {
   background-color: #dfa9a9 !important;
