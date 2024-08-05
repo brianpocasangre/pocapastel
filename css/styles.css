@@ -6,18 +6,15 @@ body {
 }
 .great {
   font-family: 'IM Fell Great Primer', serif;
-  color: #ffffff !important;
 }
 .green {
-  color: #515c3f;
+  color: #515c3f !important;
 }
 .mako {
   font-family: 'Mako', sans-serif;
-  color: #ffffff !important;
 }
 .alef {
   font-family: 'Alef', sans-serif;
-  color: #ffffff !important;
 }
 .border-bottom {
   border-color: #515c3f !important;
@@ -40,10 +37,28 @@ a {
   color: #515c3f !important;
   font-weight: 800;
 }
-.active {
+.act {
   color: white !important;
   background-color: #515c3f !important;
 }
+.container .nav .active {
+  background: rgba(81, 92, 63, 0.4) !important;
+}
 .about-bg {
   background: url(/images/Purple\ White.jpg);
+}
+.slideimg-lg {
+  margin: auto;
+  width: 425px;
+  height: auto;
+}
+.slideimg-sm {
+  margin: auto;
+  width: 540px;
+  height: auto;
+}
+.slideimg-md {
+  margin: auto;
+  width: 505px;
+  height: auto;
 }
