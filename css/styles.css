@@ -37,6 +37,9 @@ a {
   color: #515c3f !important;
   font-weight: 800;
 }
+main p {
+  text-shadow: 1px 1px 2px black, 0 0 1em #b3c488, 0 0 0.2em #b3c488;
+}
 .act {
   color: white !important;
   background-color: #515c3f !important;
